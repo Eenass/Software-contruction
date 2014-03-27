@@ -6,6 +6,7 @@ import ast.types.Type;
 import ast.visitors.ExprVisitor;
 
 public class BoolLiteral extends Literals{
+	
 	private final boolean val;
 	
 	public BoolLiteral(boolean val) {

@@ -34,6 +34,7 @@ public abstract class Widget implements EventSource{
 	public synchronized void addListener(EventListener e){
 		eventListeners.add(e);
 	}
+	
 	public synchronized void removeListener(EventListener e){
 		eventListeners.remove(e);
 	}

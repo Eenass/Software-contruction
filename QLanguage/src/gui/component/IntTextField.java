@@ -44,7 +44,10 @@ public class IntTextField extends Widget implements KeyListener{
 
 	@Override
 	public void keyTyped(KeyEvent arg0) {
-		
+		char c = arg0.getKeyChar();
+		if(!Character.isDigit(c)){
+			arg0.consume();
+		}
 	}
 
 }

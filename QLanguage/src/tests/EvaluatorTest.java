@@ -113,6 +113,7 @@ public class EvaluatorTest {
 			assertEqualsBool((Bool) expected,(Bool) value);
 		}
 	}
+	
 	private Value evaluate(Expr expr){
 		Map<Identifier, Value> m = null;
 		return expr.accept(new Evaluator(m)); 

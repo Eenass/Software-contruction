@@ -37,6 +37,7 @@ public class State {
 		this.env.put(id, val);
 		notify(id);
 	}
+	
 	public Map<Identifier, Value> getEnvValues() {
 		return env;
 	}

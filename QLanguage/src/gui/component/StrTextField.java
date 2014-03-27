@@ -13,6 +13,7 @@ import ast.value.Value;
 public class StrTextField extends Widget implements KeyListener{
 
 	private JTextField textField;
+	
 	public StrTextField() {
 		super();
 		textField = new JTextField(15);

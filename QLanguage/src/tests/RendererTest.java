@@ -68,7 +68,7 @@ public class RendererTest extends JFrame {
 	}
 	
 	public static ASTNode getParseTree() throws FileNotFoundException, IOException{
-		File in = new File("C:\\Users\\E. Butrus\\Dropbox\\MASTER\\SoftwareCon\\QLanguage\\src\\tests\\test.txt");
+		File in = new File("C:\\Users\\E. Butrus\\Dropbox\\MASTER\\SoftwareCon\\Private project\\Software-contruction\\QLanguage\\src\\tests\\test.txt");
 		ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(in));
 		QLangLexer lexer = new QLangLexer(input);
 		CommonTokenStream tokens = new CommonTokenStream(lexer);

@@ -170,6 +170,4 @@ public class Undefined extends Value{
 		return false;
 	}
 	
-	
-
 }

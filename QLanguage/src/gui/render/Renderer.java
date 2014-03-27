@@ -56,8 +56,7 @@ public class Renderer implements StatementVisitor<JComponent>{
 	private void registerControlChangeHandler(Identifier ident, Widget widget){
 		WidgetChangeHandler handler = new WidgetChangeHandler(ident, widget, state);
 		state.putObserver(ident, handler);
-	}
-	
+	}	
 	
 	private void addLabel(JPanel panel, StrLiteral label){
 		panel.add(new JLabel(label.getVal().replace("\"", "")));

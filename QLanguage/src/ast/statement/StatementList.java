@@ -15,6 +15,7 @@ public class StatementList extends Statement{
 	public  <T> T accept(StatementVisitor<T> visitor){
 		return visitor.visit(this);
 	}
+	
 	public ArrayList<Statement> getList() {
 		return list;
 	}

@@ -35,7 +35,7 @@ public class StatementTypeChecker implements StatementVisitor<Boolean>{
 	
 	private void checkLabel(StrLiteral label) {
 		if(labels.contains(label)){
-			errors.addError("Warning: Duplicate label at " + label.getVal()); 
+			errors.addWarning("Warning: Duplicate label at " + label.getVal()); 
 		}
 		labels.add(label);		
 	}

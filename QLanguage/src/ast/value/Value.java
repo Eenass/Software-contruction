@@ -4,6 +4,7 @@ public abstract class Value {
 	
 	public abstract Object getValue();
 	public abstract boolean isDefined();
+	
 	public Value add(Value arg) {
 		throw new UnsupportedOperationException();
 	}

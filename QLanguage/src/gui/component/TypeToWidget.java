@@ -7,8 +7,7 @@ import ast.types.UnknownType;
 import ast.visitors.TypeVisitor;
 
 
-public class TypeToWidget implements TypeVisitor<Widget> {
-	
+public class TypeToWidget implements TypeVisitor<Widget> {	
 
 	@Override
 	public Widget visit(BoolType node) {

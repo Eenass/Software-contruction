@@ -17,7 +17,7 @@ import ast.statement.Statement;
 public class ParserTest {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		File in = new File("C:\\Users\\E. Butrus\\Dropbox\\MASTER\\SoftwareCon\\QLanguage\\src\\tests\\test.txt");
+		File in = new File("C:\\Users\\E. Butrus\\Dropbox\\MASTER\\SoftwareCon\\Private project\\Software-contruction\\QLanguage\\src\\tests\\test.txt");
 		ANTLRInputStream input = new ANTLRInputStream(new FileInputStream(in));
 		System.out.println("start test " + input);
 		QLangLexer lexer = new QLangLexer(input);

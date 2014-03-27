@@ -12,6 +12,7 @@ import ast.value.Value;
 public class CheckBox extends Widget implements ItemListener{
 
 	private JCheckBox checkBox;
+	
 	public CheckBox() {
 		super();
 		checkBox = new JCheckBox();

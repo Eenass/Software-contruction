@@ -3,6 +3,7 @@ package ast.expr.binExpr;
 import ast.expr.Expr;
 
 public abstract class BinExpr extends Expr {
+	
 	private final Expr lhs;
 	private final Expr rhs;
 	
