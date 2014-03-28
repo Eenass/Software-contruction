@@ -1,4 +1,4 @@
-package tests;
+package gui;
 
 import ast.statement.Form;
 

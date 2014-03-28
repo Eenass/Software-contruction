@@ -1,5 +1,6 @@
 package tests;
 
+import gui.TypeCheckedForm;
 import gui.render.Renderer;
 import gui.render.State;
 
