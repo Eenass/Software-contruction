@@ -21,7 +21,7 @@ public class TypeToWidget implements TypeVisitor<Widget> {
 
 	@Override
 	public Widget visit(StrType node) {
-		return new IntTextField();
+		return new StrTextField();
 	}
 
 	@Override

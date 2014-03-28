@@ -25,8 +25,11 @@ public class IfElseObserver extends WidgetObserver {
 
 	@Override
 	public void evaluate() {
+		boolean visible = false;
 		Value val = ifelseStat.getExpr().accept(new Evaluator(state.getEnvValues())); 
-		boolean visible = ((Bool)val).getValue();
+		if (val.isDefined()){
+			visible = ((Bool)val).getValue();
+		}
 		ifPanel.setVisible(visible);
 		if(elsePanel != null){
 			elsePanel.setVisible(!visible);

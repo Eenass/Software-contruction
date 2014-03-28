@@ -8,14 +8,9 @@ public class Bool extends Value{
 		this.value = value;
 	}
 
-	public boolean isValue() {
-		return value;
-	}
-	
 	public Boolean getValue() {
 		return value;
 	}
-
 
 	@Override
 	public Value and(Value val){

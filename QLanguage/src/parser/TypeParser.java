@@ -28,7 +28,7 @@ public class TypeParser implements TypeVisitor<String>{
 
 	@Override
 	public String visit(UnknownType node) {
-		return new UnknownType().toString();
+		return "unknowntype";
 	}
 
 }
