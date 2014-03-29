@@ -4,6 +4,7 @@ import gui.component.ComputedWidget;
 import gui.component.TypeToWidget;
 import gui.component.Widget;
 import gui.observers.ComputedQuestionObserver;
+import gui.observers.FormSubmission;
 import gui.observers.IfElseObserver;
 import gui.observers.IfObserver;
 import gui.observers.WidgetChangeHandler;

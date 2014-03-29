@@ -1,4 +1,6 @@
-package gui.render;
+package gui.observers;
+
+import gui.render.State;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
