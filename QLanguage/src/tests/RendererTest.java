@@ -36,7 +36,7 @@ public class RendererTest extends JFrame {
 			add(jc);
 			pack();
 			setTitle(checkedForm.getForm().getId().getIdentName());
-			setSize(450, 500);
+			setSize(500, 600);
 			setLocationRelativeTo(null);
 			setDefaultCloseOperation(EXIT_ON_CLOSE); 
 		}
