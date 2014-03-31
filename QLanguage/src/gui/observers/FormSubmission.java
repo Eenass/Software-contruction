@@ -25,7 +25,7 @@ public class FormSubmission implements ActionListener{
 
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
-		File file = new File("C:\\Users\\E. Butrus\\Dropbox\\MASTER\\SoftwareCon\\Private project\\Software-contruction\\QLanguage\\src\\gui\\render\\out.txt");
+		File file = new File("..\\QLanguage\\src\\gui\\render\\out.txt");
 		FileWriter fw;
 		try{
 			fw = new FileWriter(file, true);
